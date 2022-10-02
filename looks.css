@@ -1,0 +1,27 @@
+.input{
+	border: 2;
+	align-self: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.main{
+	max-width: 200px;
+	margin: auto;
+}
+
+text{
+	text-align: center;
+	align-items: center;
+}
+p{
+	align-items: center;
+	align-content: center;
+}
+
+.input1{
+	background-color: rgba(150,150,225,0.9);
+	border-radius: 5px;
+	padding: 5px
+}
