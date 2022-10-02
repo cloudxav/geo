@@ -1,18 +1,25 @@
 <html>
 <head>
 	<link type="text/css" href="looks.css" rel="stylesheet"/>
-	<meta name="viewport" content="width=device-width, user-scalable=yes">
 	<script type="text/javascript" src="code.js"></script>
 <title>Geo Sem-2</title>
 </head>
 <body>
 <div class="main">
-<h1>Result</h1>
-<p>	
-<text >Enter Code no : </text>
+<h1 style="text-align: center;">Result</h1>
+<h2 style="text-align: center; background-color: rgba(0,0,225,0.75); border-radius: 10px 10px 0px 0px; margin-bottom: 0px">Student login</h2>
+<div style="border: 2px solid rgba(0,0,225,0.75); padding: 10px; border-radius: 0px 0px 10px 10px">
+<p >	
+<text style="font-size: 80%">Exam Roll No</text>
 <input type="text" class="input">
 </p>
-<input type="button" value="Export pdf" onclick="init()" class="input1"></input>
+<p>
+<text style="font-size: 80%">Passcode</text>
+<input type="text" class="input">
+<text style="font-size: 70%">*last five digit of exam roll no is passcode</text>
+</p>
+<input type="button" style="margin-left: 40px; max-width: 100px; margin: auto;" value="Export pdf" onclick="init()" class="input1"></input>
+</div>
 </div>
 </body>
 </html>
