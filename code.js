@@ -17,7 +17,7 @@ function display(Strin){
 	if(Strin=="SEM-2"){
 		document.getElementsByClassName("pdf")[0].src = "https://drive.google.com/file/d/1bLBb0BgC8n25VJNplQOnMbJgYiWJkS51/preview";
 	}else{
-		document.getElementsByClassName("pdf")[0].src = ""
+		document.getElementsByClassName("pdf")[0].src = "https://drive.google.com/file/d/1cWPclytv0X-tRB84l-QtabuH-IuJFunh/preview"
 	}
 
 	document.getElementsByClassName("main")[0].style.visibility = "hidden";
